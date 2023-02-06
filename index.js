@@ -15,7 +15,7 @@ function mindGame(number){
 
 
 // Second problem -------
-let string ='Hasan Hazari';
+// let string ='Hasan Hazari';
 function evenOdd(string){
     const stringLength = string.length;
     if(stringLength % 2 == 0){
@@ -49,21 +49,24 @@ function isLGSeven(number){
 
 
 // Forth problem --------
+// let numbers = [2, -5, -7, -13];
+function findingBadData(numbers) {
+    let positiveCount = 0;
+    let negativeCount = 0;
+ 
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] < 0) {
+            negativeCount++;
+        } else {
+            positiveCount++;
+        }
+    }
+    return negativeCount;
+}
 
-// var numbers = [ 2, -5, -7, -13];
-// let negativeArr = [];
-// let positiveArr = [];
-// function findingBadData(numbers){
-//     if(number % 2 < 0){
-        
-//         return numbers;
-//     }
-//     else{
-//         return numbers;
-//     } 
-// }
-// const response = findingBadData(numbers.length)
-// console.log(response)
+// const response = findingBadData(numbers);
+// console.log('negative numbers:--- ', response);
+
 
 
 
