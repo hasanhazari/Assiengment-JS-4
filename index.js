@@ -73,5 +73,5 @@ function gemsToDiamond(firstFriend, secondFriend, thirdFriend){
     // return totalGems;
 }
 
-const solution = gemsToDiamond(20, 200, 50);
-console.log(solution);
+// const solution = gemsToDiamond(20, 200, 50);
+// console.log(solution);
