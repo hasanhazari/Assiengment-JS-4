@@ -49,7 +49,7 @@ function isLGSeven(number){
 
 
 // Forth problem --------
-// let numbers = [2, -5, -7, -13];
+let numbers = [2, -5, -7, -13];
 function findingBadData(numbers) {
     let positiveCount = 0;
     let negativeCount = 0;
@@ -65,7 +65,7 @@ function findingBadData(numbers) {
 }
 
 // const response = findingBadData(numbers);
-// console.log('negative numbers:--- ', response);
+// console.log('Bad Data : ', response);
 
 
 
