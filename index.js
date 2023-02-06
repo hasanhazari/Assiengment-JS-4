@@ -1,5 +1,6 @@
 // first problem -------
-let num = [33];
+
+// let num = [33];
 function mindGame(number){
     const totalMalTi = number * 3;
     const totalSum = totalMalTi + 10;
@@ -9,7 +10,7 @@ function mindGame(number){
 
 }
 
-const result = mindGame(33);
+// const result = mindGame(33);
 // console.log(result);
 
 
@@ -30,7 +31,8 @@ function evenOdd(string){
 
 
 // Third problem ----------
-let number = [6];
+
+// let number = [6];
 function isLGSeven(number){
     const totalMns = number - 7;
     if(totalMns < 7){
