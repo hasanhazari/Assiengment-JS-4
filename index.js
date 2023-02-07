@@ -1,6 +1,7 @@
 // first problem -------
+//Description : 
 
-// let num = [33];
+
 function mindGame(number){
     const totalMalTi = number * 3;
     const totalSum = totalMalTi + 10;
@@ -15,7 +16,7 @@ function mindGame(number){
 
 
 // Second problem -------
-// let string ='Hasan Hazari';
+
 function evenOdd(string){
     const stringLength = string.length;
     if(stringLength % 2 == 0){
@@ -32,7 +33,7 @@ function evenOdd(string){
 
 // Third problem ----------
 
-// let number = [6];
+
 function isLGSeven(number){
     const totalMns = number - 7;
     if(totalMns < 7){
@@ -49,7 +50,7 @@ function isLGSeven(number){
 
 
 // Forth problem --------
-let numbers = [-4, -9, -5, -33, -55];
+
 function findingBadData(numbers) {
     let positiveCount = 0;
     let negativeCount = 0;
@@ -65,7 +66,7 @@ function findingBadData(numbers) {
     return negativeCount;
 }
 
-// const response = findingBadData(numbers);
+// const response = findingBadData([-4, -9, -5, -33, -55]);
 // console.log(response);
 
 
@@ -73,9 +74,13 @@ function findingBadData(numbers) {
 // Fifth problem ---------
 function gemsToDiamond(firstFriend, secondFriend, thirdFriend){
     const totalDiamond = firstFriend * 21 + secondFriend * 32 + thirdFriend * 43;
-    const totalMaiNas = totalDiamond - 2000;
-    return totalMaiNas;
-    // return totalGems;
+    if(totalDiamond > 2000){
+        const remainingDiamond = totalDiamond - 2000;
+        return remainingDiamond;
+    }
+    else if(totalDiamond < 2000){
+        return totalDiamond;
+    }
 }
 
 // const solution = gemsToDiamond(20, 200, 50);
