@@ -1,5 +1,5 @@
 // first problem -------
-//Description : 
+//Description : This is a calculation function, this function do into, plus, divided, Minus with any number.
 
 
 function mindGame(number){
@@ -16,6 +16,7 @@ function mindGame(number){
 
 
 // Second problem -------
+// Description : This is a calculation function, this function compute any string word length is even length or odd length .
 
 function evenOdd(string){
     const stringLength = string.length;
@@ -32,14 +33,14 @@ function evenOdd(string){
 
 
 // Third problem ----------
-
+// Description : This is a calculation function, if the parameter number is positive number than result is double of the input .
 
 function isLGSeven(number){
     const totalMns = number - 7;
     if(totalMns < 7){
         return totalMns;
     }
-    else if(totalMns > 7){
+    else{
         const doubleInput =  number + number;
         return doubleInput;
     }
@@ -50,6 +51,7 @@ function isLGSeven(number){
 
 
 // Forth problem --------
+// Description : This is function of negative or positive numbers chacker .
 
 function findingBadData(numbers) {
     let positiveCount = 0;
@@ -72,6 +74,7 @@ function findingBadData(numbers) {
 
 
 // Fifth problem ---------
+// Description : This is a function of one kind of international money converter .
 function gemsToDiamond(firstFriend, secondFriend, thirdFriend){
     const totalDiamond = firstFriend * 21 + secondFriend * 32 + thirdFriend * 43;
     if(totalDiamond > 2000){
